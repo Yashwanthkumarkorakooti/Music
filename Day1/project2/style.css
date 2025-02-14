@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #222;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+.mood-buttons {
+    margin: 20px 0;
+}
+.mood-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.happy { 
+    background: yellow; 
+    color: black; 
+}
+.sad { 
+    background: blue; 
+    color: white; 
+}
+.relaxed { 
+    background: green; 
+    color: white; 
+}
+.energetic { 
+    background: red; 
+    color: white; 
+}
