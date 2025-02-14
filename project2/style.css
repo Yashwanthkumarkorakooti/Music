@@ -7,30 +7,31 @@ body {
     margin: 0;
     padding: 20px;
 }
+.container {
+    max-width: 600px;
+    margin: auto;
+}
 .mood-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
     margin: 20px 0;
 }
 .mood-buttons button {
-    margin: 5px;
+    flex: 1 1 45%;
+    max-width: 150px;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     font-size: 18px;
     border-radius: 5px;
 }
-.happy { 
-    background: yellow; 
-    color: black; 
-}
-.sad { 
-    background: blue; 
-    color: white; 
-}
-.relaxed { 
-    background: green; 
-    color: white; 
-}
-.energetic { 
-    background: red; 
-    color: white; 
+.happy { background: yellow; color: black; }
+.sad { background: blue; color: white; }
+.relaxed { background: green; color: white; }
+.energetic { background: red; color: white; }
+audio {
+    width: 100%;
+    margin-top: 20px;
 }
